@@ -34,7 +34,6 @@ The result: an always-accurate Excel tracker without the manual pain.
 - ⏱ **Saves hours per week** of repetitive admin  
 - 🧾 **Reduces mistakes** by letting code catch inconsistencies  
 - 📑 **Keeps Excel as the single source of truth** (familiar to all staff)  
-- 🛠 **Easy to adapt** – just configure via `.env`  
 
 ---
 
@@ -44,24 +43,5 @@ The result: an always-accurate Excel tracker without the manual pain.
 - [requests](https://pypi.org/project/requests/) – HTTP sessions  
 - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/) – HTML parsing  
 - [openpyxl](https://pypi.org/project/openpyxl/) – Excel automation  
-- [python-dotenv](https://pypi.org/project/python-dotenv/) – environment configs  
-- [logging](https://docs.python.org/3/library/logging.html) – structured logs  
 
 ---
-
-## 📦 Setup & usage
-
-```bash
-git clone https://github.com/your-username/tms-order-sync.git
-cd tms-order-sync
-
-# Create a virtual environment
-python -m venv .venv
-source .venv/bin/activate   # on Windows: .venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Copy environment file
-cp .env.example .env
-# Fill in your TMS credentials + Excel path
